@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { SecondaryButton } from "../atoms/button/SecondaryButton";
-import { UserContext } from "../../providers/UserProvider";
+// import { UserContext } from "../../providers/UserProvider";
 import { useSetRecoilState } from "recoil";
 import { userState } from "../../store/userState";
 
